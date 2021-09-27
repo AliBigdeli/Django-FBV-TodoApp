@@ -11,6 +11,7 @@
 </p>
 
 ### Overview
+- [Overview](#overview)
 - [Demo](#demo)
 - [Features](#features)
 - [Setup](#setup)
@@ -29,6 +30,7 @@ This is a brief demo of the functionality of the project
 
 ### Features
 - Django LTS
+- Funtion Based
 - User authentication
 - Black
 - Flake8
