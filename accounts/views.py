@@ -8,7 +8,7 @@ from django.contrib.auth.decorators import login_required
 def login_view(request):
     if not request.user.is_authenticated:
         if request.method == "POST":
-            form = AuthenticationForm(request=request, data=request.POST)            
+            form = AuthenticationForm(request=request, data=request.POST)
             if form.is_valid():
                 username = form.cleaned_data.get("username")
                 password = form.cleaned_data.get("password")
@@ -19,7 +19,7 @@ def login_view(request):
                     login(request, user)
                     return redirect("/")
             else:
-                return render(request, "accounts/login.html", {"form":form})
+                return render(request, "accounts/login.html", {"form": form})
 
         form = AuthenticationForm()
         context = {"form": form}
@@ -49,7 +49,9 @@ def register_view(request):
                     login(request, user)
                 return redirect("/")
             else:
-                return render(request, "accounts/register.html", {"form": form})
+                return render(
+                    request, "accounts/register.html", {"form": form}
+                )
 
         form = UserCreationForm()
         context = {"form": form}
