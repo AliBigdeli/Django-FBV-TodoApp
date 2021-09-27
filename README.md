@@ -8,11 +8,11 @@
 <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
 </a>
 <a href="https://www.sqlite.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a>
+</p>
 
 ### Overview
-- [Overview](#overview)
-- [Features](#features)
 - [Demo](#demo)
+- [Features](#features)
 - [Setup](#setup)
 - [Getting ready](#getting-ready)
 - [options](#options)
@@ -20,6 +20,13 @@
 - [Database schema](#database-schema)
 - [Todo](#todo)
 - [Bugs or Opinion](#bugs-or-opinion)
+
+### Demo
+This is a brief demo of the functionality of the project
+<p align="center">
+<img src="https://user-images.githubusercontent.com/29748439/134964145-c9949aa4-7042-453e-98e3-41c192c268bc.gif" alt="database schema" width="720"/>
+</p>
+
 ### Features
 - Django LTS
 - User authentication
@@ -28,8 +35,7 @@
 - Responsive Design
 - Bootstrap5
 
-### Demo
-This is a brief demo of the functionality of the project
+
 
 ### Setup
 To get this repository, run the following command inside your git enabled terminal
@@ -83,6 +89,9 @@ black -l 79 . && flake8
 ```
 ### Database schema
 A simple view of the project model schema.
+<p align="center">
+<img src="https://user-images.githubusercontent.com/29748439/134964183-595bd7cf-df01-4089-8d22-bfb765d62c18.png" alt="database schema" width="300"/>
+</p>
 
 ### Todo
 - [ ] add unit tests
