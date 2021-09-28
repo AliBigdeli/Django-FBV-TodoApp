@@ -20,7 +20,7 @@ def index(request):
             obj.save()
         return redirect("/")
 
-    context = {"tasks": tasks, "createform": form}
+    context = {"tasks": tasks, "form": form}
     return render(request, "tasks/list_task.html", context)
 
 
